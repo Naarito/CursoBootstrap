@@ -1,0 +1,139 @@
+html,body{
+    height: 100%;
+}
+
+body{
+    padding-top: 40px;
+}
+
+/*.container{
+    max-width: 700px;
+}*/
+
+.chamada{
+    background-image: url(../img/Arquivo_003.jpeg);
+    background-size: auto 7.8em;
+    background-position: top left;
+    height: 10em;
+    margin-top: 20px;
+    background-repeat: no-repeat;
+    position:relative;
+    border: 15px solid white;
+}
+
+.container-chamada{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    padding: 0.6em;
+    height: 10em;
+    width:60%;
+    border-radius: 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+}
+
+.container-chamada h1{
+    margin: 0;
+}
+
+#paineis-sobre{
+    margin-top: 5px;
+}
+
+.titulo-historia{
+    background-color: #428bca;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+}
+
+.titulo-video{
+    background-color: #428bca;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 20px 0 0 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 24px;
+}
+
+.indent{
+    padding-left: 15px;
+}
+
+.grupo-radio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.contato-select{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+
+.address{
+    padding-top: 0.7em;
+    padding-bottom: 1em;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+}
+
+.spacing-footer{
+    margin-top: 15px;
+}
+
+.links-footer{
+    color: dodgerblue;
+}
+
+.img-centrada{
+    margin: 0 auto;
+}
+.logo{
+    height: 4.1em;
+    background-color: transparent;
+}
+
+/*.nav li{
+    border-bottom: solid grey 0.3px;
+}
+
+.nav li:last-child{
+    border-bottom: transparent;
+}*/
+
+.button-chamada{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-top: 0;
+}
+
+@media(min-width:768px){
+
+    .margem-sobre{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 1200px){
+   #nossa-historia{
+       width: 1080px;
+    }
+}
+
+.flex-thumb{
+    height: 460px;
+}
